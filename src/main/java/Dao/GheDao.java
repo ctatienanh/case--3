@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GheDao implements IGheDao {
-
+    private String abc;
     private static final String
             INSERT_GHE_SQL =
             "INSERT INTO ghe (idGhe,tenGhe) VALUES (?, ?);";
